@@ -1,0 +1,39 @@
+.sampleContainer {
+    display: grid;
+    overflow-y: hidden;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+    height: fit-content;
+}
+
+.sampleTextStyle {
+  text-decoration: none;
+  padding-left: 1rem;
+}
+
+.sampleImgContainer {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 1rem;
+}
+
+.sampleImgStyle {
+  margin: 1rem;
+  border-radius : 2rem;
+  transition: all .2s ease-in-out;
+  width: 160;
+  height: auto;
+}
+
+.sampleImgStyle:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .sampleImgStyle {
+    margin: 0.5rem;
+  }
+
+}

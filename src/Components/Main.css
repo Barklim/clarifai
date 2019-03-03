@@ -1,0 +1,96 @@
+.responsiveContainer {
+	margin-top : 15%;
+}
+
+.sidebarIcons{
+	color:white;
+	font-size: 2rem;
+	margin: 0 1rem 0 0;
+	transition: all .2s ease-in-out;
+}
+
+.sidebarIcons:hover{
+	color:#f52549;
+	transform: scale(1.1);
+}
+
+.ColorSection{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+/*************************************************/
+/*************************************************/
+/****************router>menuRouter****************/
+/*************************************************/
+/*************************************************/
+.firstMenu{
+	background-color: rgb(168, 84, 144)!important;
+}
+.secondMenu{
+	background-color: rgb(227, 104, 131)!important;
+}
+.thirdMenu{
+	background-color: rgb(255, 142, 111)!important;
+}
+.fourthMenu{
+	background-color: rgb(255, 193, 97)!important;
+}
+
+
+
+/*************************************************/
+/*************************************************/
+/***************sub components css****************/
+/*************************************************/
+/*************************************************/
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bounding-box:hover {
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(51, 153, 255,0.3)
+}
+
+
+.bigger-box {
+	position: relative;
+	display: inline-block;
+	width: 325px;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.div-center {
+	text-align: center;
+	margin: auto;
+}
+
+#box_number {
+	margin: -40%;
+    text-align: right;
+    padding-left: 110%;
+    color: deeppink;
+    font-size: 2rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+}
